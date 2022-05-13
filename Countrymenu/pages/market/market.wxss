@@ -1,0 +1,99 @@
+.index_swiper swiper {
+  width: 750rpx;
+  height: 340rpx;
+}
+.index_swiper swiper image {
+  width: 100%;
+}
+.index_cate {
+  display:flex; 
+  flex-wrap:wrap;
+  width: 100%;
+  height: 300rpx;
+  background: rgb(246,247,251);
+}
+.index_cate navigator {
+  border-radius: 100rpx;
+  padding-right:20rpx;
+  padding-left:20rpx;
+  width: 25%;
+  height: 200rpx;
+  font-size: 29rpx;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index_cate navigator image {
+  border-radius: 120rpx;
+}
+
+
+.goods_list {
+  padding: 0 20rpx;
+  padding-top: 100rpx;
+}
+.goods_list .goods {
+  column-gap: 5rpx;
+  column-count: 2;
+  margin: 20rpx 0;
+
+}
+
+.item {
+  width: calc(100% - 30rpx);
+  break-inside: avoid;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+  border-radius: 10rpx;
+  margin: 15rpx 15rpx;
+  padding:20rpx 0rpx;
+}
+
+.item navigator{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.item image {
+  width: 100%;
+}
+
+.goods_list .goods navigator .goods_name{
+  font-size: 34rpx;
+  font-weight: bolder;
+}
+
+.goods_list .goods navigator .goods_describe{
+  font-size: 29rpx;
+  color:gray;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -webkit-box-orient:vertical;
+}
+
+
+.goods_list .goods navigator .goods_price{
+  font-size: 42rpx;
+  font-weight: bolder;
+  color: red;
+}
+
+.goods_list .goods button{
+  width: 260rpx;
+  height: 70rpx;
+  background: red;
+  color:white;
+  font-size: 28rpx;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+

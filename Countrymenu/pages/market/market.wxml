@@ -1,0 +1,66 @@
+<!--pages/market/market.wxml-->
+<view class="market_index">
+  <!--搜索框 开始-->
+  <SearchInput></SearchInput>
+  <!--搜索框 结束-->
+  <!--搜索框 开始-->
+  <view class="index_swiper">
+    <!--
+      1 swiper标签存在默认的宽度和高度
+      100%*150px
+      2 image标签也存在默认的宽度和高度
+      320px*240px
+      3 设计图片和轮播图
+        1 原图宽高 750*340
+        2 让图片的高度自适应 宽度 等于100%
+      4 图片标签
+        mode属性 渲染模式
+          widthFix 让图片的标签宽高和图片标签内容的宽高都等比例的发生变化
+        
+    -->
+    <swiper autoplay="true" indicator-dots="true">
+      <swiper-item
+      wx:for="{{swiperData}}"
+      wx:key="index"
+      >
+        <navigator>
+          <image mode="widthFix" src="{{item.funcPhoto}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!--搜索框 结束-->
+  <!--导航 开始-->
+  <view class="index_cate">
+    <navigator url="../marketcategory/marketcategory"
+    wx:for="{{guideData}}"
+      wx:key="index">
+      <image mode="widthFix" src="{{item.funcPhoto}}"></image>
+      <text>{{item.guide_name}}</text>
+    </navigator>
+  </view>
+  <!--导航 结束-->
+  <view class="goods_list">
+    <view class="goods">
+      <block wx:for="{{ goodslistData }}"
+        wx:key="index">
+        <view class="item" >
+          <navigator>
+            <image 
+              lazy-load
+              mode="widthFix"
+              src="{{ item.funcPhoto }}" />
+              <text class="goods_name">{{ item.goods_name }}</text>
+              <text class="goods_describe">{{ item.goods_describe }}</text>
+              <text class="goods_price">{{ item.goods_price }}</text>
+          </navigator>
+          <button>加入购物车</button>
+        </view>
+        <view class="null-wrap"></view>
+      </block>
+    </view>
+    </view>
+  
+  
+</view>
+

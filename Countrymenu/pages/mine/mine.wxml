@@ -1,0 +1,26 @@
+<view class="mine_index">
+  <view class="user"
+  wx:for="{{ userData }}"
+        wx:key="index">
+        <view class="item" >
+            <image 
+              lazy-load
+              mode="widthFix"
+              src="{{ item.funcPhoto }}" />
+              <text>{{ item.username}}</text>
+        </view>
+  </view>
+  <view class="userItemList">
+  <!--用户列表选项-->
+<view class="userItemListView">
+    <view wx:for="{{ settingData }}"
+        wx:key="index">
+        
+        <text>{{ item.settingname }}</text>
+    </view>
+    
+</view>
+
+</view>
+</view>
+

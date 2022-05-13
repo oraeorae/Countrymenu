@@ -1,0 +1,52 @@
+.mine_index {
+  height: 1200rpx;
+}
+
+.mine_index .user .item{
+  padding:40rpx 40rpx 60rpx 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; 
+  border: 1rpx solid #f1f1f1;
+}
+
+.mine_index .user .item image{
+  width: 120rpx;
+}
+
+.mine_index .user .item text{
+  font-size: 40rpx;
+}
+
+.mine_index .user .item image{
+  border-radius: 50%;
+}
+
+/*用户列表选项样式*/
+.userItemListView{
+  background:#fff;
+  padding:0 50rpx;
+  border-radius: 20rpx;
+  margin: 30rpx 20rpx;
+  border: 1rpx solid #f1f1f1;
+}
+.userItemListView > view{
+  height:100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+  display: list-item;
+}
+
+.userItemListView view image{
+  width:60rpx;
+}
+
+.userItemListView > view:last-child{
+  border:none;
+}
+
+.userItemListView text{
+  font-size: 36rpx;
+}
+

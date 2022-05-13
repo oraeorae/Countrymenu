@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/market/market",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/search/index",
+    "pages/search/index/index",
+    "pages/mine/mine",
+    "pages/community/community"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "乡村特色菜谱",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#D6463C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首 页",
+        "iconPath": "picture/首页.png",
+        "selectedIconPath": "picture/首页 (1).png"
+      },
+      {
+        "pagePath": "pages/market/market",
+        "text": "商 城",
+        "iconPath": "picture/商城.png",
+        "selectedIconPath": "picture/商城 (1).png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "博物馆",
+        "iconPath": "picture/社区.png",
+        "selectedIconPath": "picture/社区 (1).png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "picture/我的.png",
+        "selectedIconPath": "picture/我的 (1).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

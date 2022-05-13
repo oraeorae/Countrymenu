@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="caipu_index">
+  <!--搜索框 开始-->
+  <SearchInput></SearchInput>
+  <!--搜索框 结束-->
+  <!--轮播图 开始-->
+  <view class="index_swiper">
+    <swiper autoplay="true" indicator-dots="true">
+      <swiper-item>
+        <navigator>
+         <image mode="widthFix" src="	https://dcdn.it120.cc/2022/05/10/b1166ae7-3944-4ab8-be27-9c829a5a833d.jpeg"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+         <image mode="widthFix" src="https://dcdn.it120.cc/2022/05/10/1505b04b-d6be-4a81-9b5a-ba4d714fb52b.jpeg"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+         <image mode="widthFix" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!--轮播图 结束-->
+  <!--导航 开始-->
+  <view class="index_cate">
+      <navigator>
+      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
+      <text>日常菜谱</text>
+
+    </navigator>
+    <navigator>
+      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
+      <text>文化菜谱</text>
+    </navigator>
+    <navigator>
+      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
+      <text>自制菜谱</text>
+    </navigator>
+    <navigator>
+      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
+      <text>功能菜谱</text>
+    </navigator>
+  </view>
+  <!--导航 结束-->
+  
+  
+</view>

@@ -1,0 +1,35 @@
+
+/* 全局内边距 */
+.container {
+  padding: 0 20rpx;
+}
+/* 瀑布流布局 */
+.picture{
+  column-gap: 5rpx;
+  column-count: 2;
+  margin: 20rpx 0;
+}
+.item {
+  width: calc(100% - 30rpx);
+  break-inside: avoid;
+  box-shadow: 0 5px 15px 0 rgba(0,0,0,0.1);
+  border-radius: 20rpx;
+  margin: 0 15rpx;
+}
+.item image {
+  width: 100%;
+  border-radius: 20rpx;
+}
+
+
+.item navigator .page_name {
+  font-size: 34rpx;
+  font-weight: 500;
+  padding: 0rpx 30rpx;
+}
+.item navigator .text-center {
+  font-size: 30rpx;
+}
+.null-wrap{
+  height: 30rpx;
+}
