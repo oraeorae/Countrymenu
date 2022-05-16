@@ -1,5 +1,0 @@
-<!--pages/marketcategory/marketcategory.wxml-->
-<view class="cates_container">
-  <scroll-view class="left_menu"></scroll-view>
-  <scroll-view class="right_menu"></scroll-view>
-</view>

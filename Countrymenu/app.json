@@ -8,6 +8,7 @@
     "pages/search/index/index",
     "pages/mine/mine",
     "pages/community/community",
+    "pages/mcate/mcate",
     "pages/my/my"
   ],
   "window": {

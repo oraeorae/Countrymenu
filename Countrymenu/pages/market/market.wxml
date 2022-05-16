@@ -32,7 +32,7 @@
   <!--搜索框 结束-->
   <!--导航 开始-->
   <view class="index_cate">
-    <navigator url="../marketcategory/marketcategory"
+    <navigator url="../mcate/mcate"
     wx:for="{{guideData}}"
       wx:key="index">
       <image mode="widthFix" src="{{item.funcPhoto}}"></image>
