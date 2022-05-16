@@ -7,7 +7,8 @@
     "pages/search/index",
     "pages/search/index/index",
     "pages/mine/mine",
-    "pages/community/community"
+    "pages/community/community",
+    "pages/my/my"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -38,7 +39,7 @@
         "selectedIconPath": "picture/社区 (1).png"
       },
       {
-        "pagePath": "pages/mine/mine",
+        "pagePath": "pages/my/my",
         "text": "我的",
         "iconPath": "picture/我的.png",
         "selectedIconPath": "picture/我的 (1).png"

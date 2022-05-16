@@ -15,7 +15,7 @@ const firstData = [
   {
     remark: "图片3",
     id: "64",
-    funcPhoto: "/picture/goods_picture/菜1.jpeg",
+    funcPhoto: "https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg",
     page_name:"我做的这个菜还行吧"
   },
   {
@@ -27,7 +27,7 @@ const firstData = [
   {
     remark: "图片5",
     id: "64",
-    funcPhoto: "/picture/goods_picture/菜1.jpeg",
+    funcPhoto: "https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg",
     page_name:"我做的这个菜还行吧"
   },
   {
@@ -45,7 +45,7 @@ const firstData = [
   {
     remark: "图片8",
     id: "64",
-    funcPhoto: "/picture/goods_picture/菜1.jpeg",
+    funcPhoto: "https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg",
     page_name:"我做的这个菜还行吧"
   },
   {

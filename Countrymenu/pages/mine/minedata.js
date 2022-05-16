@@ -32,7 +32,7 @@ const secondData = [
   {
     id: "5",
     settingname:"关于我们",
-    funcPhoto: "/picture/mine_picture/勋章.png"
+    funcPhoto: "/picture/mine_picture/关于.png"
   },
   {
     id: "6",
