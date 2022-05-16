@@ -3,31 +3,31 @@
       <text  bindtap="logins">182214773</text>
    </view>
    <view class="content">
-        <view class="left">
+        <navigator class="left">
           <image src="/picture/mine_picture/订单.png" alt=""></image>
           <text>商品订单</text>
-        </view>
-        <view class="left">
+        </navigator>
+        <navigator class="left">
           <image src="/picture/mine_picture/收藏.png" alt=""></image>
           <text>菜谱收藏</text>
-        </view>
-        <view class="right">
+        </navigator>
+        <navigator class="right">
           <image src="/picture/mine_picture/收藏 (2).png" alt=""></image>
           <text>商品收藏</text>
-        </view>
+        </navigator>
 
    </view>
    <view class="box">
-   <view class="box1">
-     <text>勋章</text>
+   <navigator class="box1">
      <image src="/picture/mine_picture/勋章.png" alt=""></image>
-   </view>
-   <view class="box1">
-    <text>关于我们</text>
+     <text>勋章</text>
+   </navigator>
+   <navigator class="box1">
     <image src="/picture/mine_picture/关于.png" alt=""></image>
-  </view>
-  <view class="box1">
-    <text>分享给朋友</text>
+    <text>关于我们</text>
+  </navigator>
+  <navigator class="box1">
     <image src="/picture/mine_picture/分享.png" alt=""></image>
-  </view>
+    <text>分享给朋友</text>
+  </navigator>
 </view>
