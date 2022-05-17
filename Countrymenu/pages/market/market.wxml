@@ -34,11 +34,13 @@
   <view class="index_cate">
     <navigator url="../mcates/mcates"
     wx:for="{{guideData}}"
-      wx:key="index">
-      <image mode="widthFix" src="{{item.funcPhoto}}"></image>
+      wx:key="index"
+      wx:key="*this">
+      <image  src="{{item.funcPhoto}}"></image>
       <text>{{item.guide_name}}</text>
     </navigator>
   </view>
+  
   <!--导航 结束-->
   <view class="goods_list">
     <view class="goods">

@@ -27,6 +27,7 @@
 }
 .index_cate navigator image {
   border-radius: 120rpx;
+  height: 130rpx;
 }
 
 

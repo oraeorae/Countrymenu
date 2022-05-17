@@ -6,19 +6,12 @@
   <!--轮播图 开始-->
   <view class="index_swiper">
     <swiper autoplay="true" indicator-dots="true">
-      <swiper-item>
+      <swiper-item
+      wx:for="{{swiperData}}"
+      wx:key="index"
+      >
         <navigator>
-         <image mode="widthFix" src="	https://dcdn.it120.cc/2022/05/10/b1166ae7-3944-4ab8-be27-9c829a5a833d.jpeg"></image>
-        </navigator>
-      </swiper-item>
-      <swiper-item>
-        <navigator>
-         <image mode="widthFix" src="https://dcdn.it120.cc/2022/05/10/1505b04b-d6be-4a81-9b5a-ba4d714fb52b.jpeg"></image>
-        </navigator>
-      </swiper-item>
-      <swiper-item>
-        <navigator>
-         <image mode="widthFix" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
+         <image mode="widthFix" src="{{item.funcPhoto}}"></image>
         </navigator>
       </swiper-item>
     </swiper>
@@ -26,23 +19,13 @@
   <!--轮播图 结束-->
   <!--导航 开始-->
   <view class="index_cate">
-      <navigator>
-      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
-      <text>日常菜谱</text>
-
+      <navigator url="../ccates/ccates"
+      wx:for="{{guideData}}"
+      wx:key="index">
+      <image mode="aspectFill" src="{{item.funcPhoto}}"></image>
+      <text>{{item.guide_name}}</text>
     </navigator>
-    <navigator>
-      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
-      <text>文化菜谱</text>
-    </navigator>
-    <navigator>
-      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
-      <text>自制菜谱</text>
-    </navigator>
-    <navigator>
-      <image mode="aspectFill" src="https://dcdn.it120.cc/2022/05/10/ae2b0c2c-d381-4c09-a021-03dffa751820.jpeg"></image>
-      <text>功能菜谱</text>
-    </navigator>
+    
   </view>
   <!--导航 结束-->
   

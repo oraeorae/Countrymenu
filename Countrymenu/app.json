@@ -8,6 +8,7 @@
     "pages/search/index/index",
     "pages/community/community",
     "pages/mcates/mcates",
+    "pages/ccates/ccates",
     "pages/my/my"
   ],
   "window": {
@@ -58,7 +59,6 @@
   "van-grid-item": "@vant/weapp/grid-item/index",
   "van-tree-select": "@vant/weapp/tree-select/index",
   "van-card": "@vant/weapp/card/index"
-
   },
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"

@@ -1,0 +1,37 @@
+/* pages/market/market.wxss */
+.left-side{
+  width: 20%;
+  float: left;
+}
+.right-side{
+  width: 80%;
+  float: left;
+}
+.right-side .box_1{
+  width: 100%;
+  float: left;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding:20rpx 20rpx;
+}
+
+.right-side .box_1 image{
+  border-radius: 20rpx;
+}
+
+.right-side .box_1 .menu_name{
+  font-size: 34rpx;
+  font-weight: bolder;
+}
+.right-side .box_1 .menu_describe{
+  font-size: 29rpx;
+  color:gray;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  overflow:hidden;
+  -webkit-box-orient:vertical;
+}
+
+
+
