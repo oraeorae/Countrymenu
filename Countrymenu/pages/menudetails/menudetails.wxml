@@ -1,0 +1,33 @@
+<view class="container">
+    <block>
+        <image src="{{menuData.cat_icon}}" class="slideImage" />
+    </block>
+  <view class="name">{{menuData.cat_name}}</view>
+  <view class="desc">文化：{{menuData.culture_desc}}</view>
+  <view class="cailiao">
+    配料：
+  </view>
+  <view>
+    <van-grid column-num="2" border="true">
+  <van-grid-item use-slot wx:for="{{menuData.cailiao}}"
+  wx:key="*this">
+  {{item.cailiao_name}}
+  </van-grid-item>
+</van-grid>
+  <view class="buzhou">
+    --烹饪步骤--
+  </view>
+  <view class="buzhous"
+  wx:for="{{menuData.buzhou}}"
+  wx:for-index="index"
+  wx:key="*this">
+    <view>
+      {{index+1}}
+      <image src="{{item.cat_icon}}"/>
+      <text>{{item.descibe}}</text>
+    </view>
+  </view>
+  </view>
+  <view class="buy" bindtap="shoucangproduct">收藏</view>
+</view>
+

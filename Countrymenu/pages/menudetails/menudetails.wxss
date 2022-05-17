@@ -1,0 +1,56 @@
+.container{
+  padding: 0;
+}
+.container .buy{
+  width: 100%;
+  height: 100rpx;
+  background: #e50e38;
+  text-align: center;
+  color: #fff;
+  line-height: 88rpx;
+  position:fixed;
+  bottom:0;
+  font-size:30rpx;
+  letter-spacing:3rpx;
+}
+
+.slideImage{
+  width: 750rpx;
+  height: 500rpx;
+}
+.name{
+  text-align: center;
+  font-size: 40rpx;
+  line-height: 48rpx;
+  padding-top: 20rpx;
+
+}
+
+.desc{
+  padding: 20rpx 20rpx 20rpx 20rpx ;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 48rpx;
+}
+
+.cailiao{
+  margin: 30rpx 30rpx 30rpx 30rpx ;
+  font-size: 30rpx;
+  line-height: 48rpx;
+}
+
+.buzhou{
+  text-align: center;
+  margin: 40rpx 20rpx 30rpx 20rpx ;
+  font-size: 30rpx;
+  line-height: 48rpx;
+}
+
+.buzhous{
+  margin: 40rpx 20rpx 30rpx 20rpx ;
+}
+
+.buzhous image{
+  border-radius: 20rpx;
+}
+

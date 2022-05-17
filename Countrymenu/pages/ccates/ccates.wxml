@@ -3,12 +3,11 @@
        <van-sidebar-item title="{{item.cat_name}}" 
          wx:for="{{firstCategory}}"
          wx:key="cat_id">
-
        </van-sidebar-item>
     </van-sidebar>
   </view>
   <view class="right-side">
-    <navigator class="box_1" 
+    <navigator class="box_1" url="../menudetails/menudetails"
     wx:for="{{secondCategory}}"
     wx:key="*this">
     <image mode="widthFix" src="{{item.cat_icon}}"></image>

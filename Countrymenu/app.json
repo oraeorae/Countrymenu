@@ -9,7 +9,8 @@
     "pages/community/community",
     "pages/mcates/mcates",
     "pages/ccates/ccates",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/menudetails/menudetails"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -56,11 +57,12 @@
     "van-tab": "@vant/weapp/tab/index",
     "van-tabs": "@vant/weapp/tabs/index",
     "van-grid": "@vant/weapp/grid/index",
-  "van-grid-item": "@vant/weapp/grid-item/index",
-  "van-tree-select": "@vant/weapp/tree-select/index",
-  "van-card": "@vant/weapp/card/index"
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-tree-select": "@vant/weapp/tree-select/index",
+    "van-card": "@vant/weapp/card/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+  "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   },
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
-
 }

@@ -47,6 +47,12 @@
           "pathName": "pages/ccates/ccates",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/menudetails/menudetails",
+          "pathName": "pages/menudetails/menudetails",
+          "query": "",
+          "scene": null
         }
       ]
     }
