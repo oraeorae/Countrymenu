@@ -1,0 +1,35 @@
+/* pages/market/market.wxss */
+.left-side{
+  width: 20%;
+  float: left;
+}
+.right-side{
+  width: 80%;
+  float: left;
+}
+.right-side .box_1{
+  width: 100%;
+  float: left;
+}
+
+.right-side .box_1 .product-name {
+  font-size: 32rpx;
+  font-weight: bolder;
+}
+
+.right-side .box_1 .product-desc {
+  font-size: 29rpx;
+  color: gray;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+/* 
+.right-side .box_1 .product-price {
+
+} */
+
+
+

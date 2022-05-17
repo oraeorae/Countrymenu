@@ -1,0 +1,33 @@
+  <view class="left-side">
+    <van-sidebar active-key="{{ activeKey }}" bind:change="onChange">
+       <van-sidebar-item title="{{item.cat_name}}" 
+         wx:for="{{firstCategory}}"
+         wx:key="cat_id">
+
+       </van-sidebar-item>
+    </van-sidebar>
+  </view>
+  <view class="right-side">
+    <view class="box_1" 
+    wx:for="{{secondCategory}}"
+    wx:key="*this">
+    <van-card
+    num="1"
+    price="{{item.goods_price}}"
+    desc="{{item.goods_describe}}"
+    title="{{item.goods_name}}"
+    thumb="{{item.cat_icon}}"
+    title-class="product-name"
+    desc-class="product-desc"
+    price-class="product-price">
+      <view slot="footer">
+       <van-button round type="primary" 
+       size="mini">+ 加入购物车</van-button>
+      </view>
+   </van-card>
+   </view>
+   
+  </view>
+<van-notify id="van-notify" />
+
+

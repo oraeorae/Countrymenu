@@ -31,20 +31,14 @@
           "scene": null
         },
         {
-          "name": "pages/mine/mine",
-          "pathName": "pages/mine/mine",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/my/my",
           "pathName": "pages/my/my",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/mcate/mcate",
-          "pathName": "pages/mcate/mcate",
+          "name": "pages/mcates/mcates",
+          "pathName": "pages/mcates/mcates",
           "query": "",
           "scene": null
         }

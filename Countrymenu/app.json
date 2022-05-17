@@ -6,9 +6,8 @@
     "pages/search/search",
     "pages/search/index",
     "pages/search/index/index",
-    "pages/mine/mine",
     "pages/community/community",
-    "pages/mcate/mcate",
+    "pages/mcates/mcates",
     "pages/my/my"
   ],
   "window": {
@@ -47,7 +46,21 @@
       }
     ]
   },
-  "style": "v2",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-sidebar": "@vant/weapp/sidebar/index",
+    "van-sidebar-item": "@vant/weapp/sidebar-item/index",
+    "van-notify": "@vant/weapp/notify/index",
+    "van-swipe-cell": "@vant/weapp/swipe-cell/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-grid": "@vant/weapp/grid/index",
+  "van-grid-item": "@vant/weapp/grid-item/index",
+  "van-tree-select": "@vant/weapp/tree-select/index",
+  "van-card": "@vant/weapp/card/index"
+
+  },
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
+
 }
