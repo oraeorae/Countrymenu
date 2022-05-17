@@ -10,7 +10,8 @@
     "pages/mcates/mcates",
     "pages/ccates/ccates",
     "pages/my/my",
-    "pages/menudetails/menudetails"
+    "pages/menudetails/menudetails",
+    "pages/goodsdetails/goodsdetails"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -61,7 +62,10 @@
     "van-tree-select": "@vant/weapp/tree-select/index",
     "van-card": "@vant/weapp/card/index",
     "van-tabbar": "@vant/weapp/tabbar/index",
-  "van-tabbar-item": "@vant/weapp/tabbar-item/index"
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "van-goods-action": "@vant/weapp/goods-action/index",
+  "van-goods-action-icon": "@vant/weapp/goods-action-icon/index",
+  "van-goods-action-button": "@vant/weapp/goods-action-button/index"
   },
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"

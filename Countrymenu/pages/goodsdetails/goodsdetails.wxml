@@ -1,0 +1,22 @@
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+      <block wx:for="{{goodsData.icon}}">
+          <swiper-item>
+              <image src="{{item.cat_icon}}" class="slideImage" />
+          </swiper-item>
+      </block>
+  </swiper>
+  <view class="name">{{goodsData.cat_name}}</view>
+  <view class="brief">{{goodsData.culture_desc}}</view>
+  <view class="origin">产地：{{goodsData.origin}}</view>
+  <view class="price">¥{{goodsData.price}}</view>
+</view>
+<van-goods-action>
+  <van-goods-action-icon icon="home-o" text="主页" bind:click="onClickIcon" />
+  <van-goods-action-icon icon="cart-o" text="购物车" bind:click="onClickIcon" />
+  <van-goods-action-button
+    text="加入购物车"
+    bind:click="onClickButton"
+  />
+</van-goods-action>
+

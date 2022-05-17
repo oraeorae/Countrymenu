@@ -11,6 +11,7 @@
     <view class="box_1" 
     wx:for="{{secondCategory}}"
     wx:key="*this">
+    <navigator class="goods"url="../goodsdetails/goodsdetails" >
     <van-card
     num="1"
     price="{{item.goods_price}}"
@@ -25,6 +26,7 @@
        size="mini">+ 加入购物车</van-button>
       </view>
    </van-card>
+    </navigator>
    </view>
    
   </view>

@@ -53,6 +53,12 @@
           "pathName": "pages/menudetails/menudetails",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/goodsdetails/goodsdetails",
+          "pathName": "pages/goodsdetails/goodsdetails",
+          "query": "",
+          "scene": null
         }
       ]
     }
