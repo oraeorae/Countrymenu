@@ -56,7 +56,6 @@
               <text class="goods_describe">{{ item.goods_describe }}</text>
               <text class="goods_price">{{ item.goods_price }}</text>
           </navigator>
-          <button>加入购物车</button>
         </view>
         <view class="null-wrap"></view>
       </block>

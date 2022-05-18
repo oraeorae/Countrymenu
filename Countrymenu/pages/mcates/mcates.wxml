@@ -21,10 +21,7 @@
     title-class="product-name"
     desc-class="product-desc"
     price-class="product-price">
-      <view slot="footer">
-       <van-button round type="primary" 
-       size="mini">+ 加入购物车</van-button>
-      </view>
+      
    </van-card>
     </navigator>
    </view>
